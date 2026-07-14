@@ -5,7 +5,8 @@ let socket = null
 export const initSocket = (userId) => {
   if (socket?.connected) return
 
-  socket = io('/', { withCredentials: true, transports: ['websocket', 'polling'] })
+  const socketUrl = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/api\/?$/, "") : '/';
+  socket = io(socketUrl, { withCredentials: true, transports: ['websocket', 'polling'] })
 
   socket.on('connect', () => {
     console.log('🔌 Socket connected:', socket.id)
