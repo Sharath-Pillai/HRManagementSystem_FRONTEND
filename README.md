@@ -1,7 +1,13 @@
 # HRMS Frontend
 
 HRMS Frontend is a polished React + Vite application built for HR teams to manage employee data, payroll, attendance, recruitment, and notifications in a single admin dashboard.
-
+Demo check use below credentials:-
+Super Admin  → admin@hrms.com     / Admin@1234"
+    "HR Manager   → hr@hrms.com        / Hr@12345"
+    "Team Manager → manager@hrms.com   / Manager@1234"
+    "Employee 1   → amit@hrms.com      / Emp@12345"
+    "Employee 2   → sneha@hrms.com     / Emp@12345"
+    "Employee 3   → ananya@hrms.com    / Emp@12345"
 ## Features
 
 - React 19 and Vite 4-based SPA
